@@ -1,0 +1,6 @@
+python detect.py --weights --project --conf --img-size --source
+
+
+python train.py --workers 1 --device 0 --batch-size 16 --epochs 50 --img 410 --data data/customData.yaml --hyp data/hyps/hyp.scratch-med.yaml --name withCars --weights
+
+
